@@ -39,3 +39,6 @@ You may want to use following ros nodes
 * IMU: /bubbles/imu
 * pressure sensor: /bubbles/pressure
 * camera: /bubbles/bubbles/camera/camera_image
+
+![Screenshot](https://user-images.githubusercontent.com/10456378/69312063-e2d58e80-0c68-11ea-8e10-3f172c2f5799.png)
+
