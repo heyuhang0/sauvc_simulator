@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>bubbles_adapter</name>
+  <version>0.0.0</version>
+  <description>The bubbles_adapter package</description>
+
+  <maintainer email="heyuhang0@outlook.com">heyuhang0</maintainer>
+
+  <license>TODO</license>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

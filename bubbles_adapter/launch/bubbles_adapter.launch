@@ -1,0 +1,6 @@
+<launch>
+  <arg name="namespace" default="bubbles"/>
+  <group ns="$(arg namespace)">
+    <node name="thruster_manager" pkg="bubbles_adapter" type="thruster_manager.py" output="screen"/>
+  </group>
+</launch>
