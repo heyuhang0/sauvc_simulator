@@ -18,7 +18,7 @@ class BasicTeleopNode:
         output.linear.z = msg.axes[2] - msg.axes[5]
         output.angular.x = -msg.axes[3]
         output.angular.y = msg.axes[4]
-        output.angular.z = -msg.axes[0]
+        output.angular.z = msg.axes[0]
         self.pub.publish(output)
 
 
