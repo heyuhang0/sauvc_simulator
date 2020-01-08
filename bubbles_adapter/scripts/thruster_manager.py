@@ -28,9 +28,9 @@ class ThrusterManagerNode:
             # x  y   z roll pitch yaw
             [0,  0,  1,  1, -1,  0],  # left front motor
             [0,  0,  1, -1, -1,  0],  # right front motor
-            [1,  0,  0,  0,  0,  0],  # left rear motor
+            [1,  0,  0,  0,  0, -1],  # left rear motor
             [1,  0,  0,  0,  0,  1],  # right rear motor
-            [0,  0,  1,  0,  1, -1]   # rear motor
+            [0,  0,  1,  0,  1,  0]   # rear motor
         ])
         self.scale = 10
         self.num_thrusters = len(self.tranform_matrix)
