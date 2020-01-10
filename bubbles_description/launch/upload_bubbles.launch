@@ -64,4 +64,9 @@
     <arg name="child_frame_id" value="/$(arg namespace)/base_link"/>
   </include>
 
+  <!-- Adapter layer between simulation and actual system -->
+  <include file="$(find bubbles_adapter)/launch/bubbles_adapter.launch">
+    <arg name="namespace" value="$(arg namespace)" />
+  </include>
+
 </launch>
