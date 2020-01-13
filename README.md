@@ -41,9 +41,9 @@ roslaunch bubbles_description upload_bubbles.launch
 
 * To try basic joystick teleop (without PID): `roslaunch bubbles_adapter basic_teleop.launch`
 
-## Ros nodes
+## Ros topics
 
-You may want to use following ros nodes
+You may want to use following ros topics
 
 * thruster_manager: geometry_msgs/Twist -> /bubbles/thruster_manager/input
 * thrusters(index in range(0, 4)): uuv_gazebo_ros_plugins_msgs/FloatStamped -> /bubbles/thrusters/{index}/input
