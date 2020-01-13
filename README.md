@@ -27,9 +27,9 @@ pip3 install rospkg
 
 ## Run
 
-* Start environment
+* Start environment (year argument to select year)
 ```
-roslaunch sauvc_gazebo sauvc_gazebo.launch
+roslaunch sauvc_gazebo sauvc_gazebo.launch year:=2020
 ```
 
 * Start a new terminal, then upload robot to gazebo
